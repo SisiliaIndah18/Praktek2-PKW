@@ -1,3 +1,130 @@
-.produk{
-    border : 6px solid #c4b263;
+/*Responsive Website*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+*{
+  font-family: 'EB Garamond', serif;
+}
+
+*{
+  background-color: rgb(230, 214, 214);
+}
+
+.section1{
+  text-align: center;
+  color: rgb(192, 122, 122);
+}
+
+.tabel, th, td{
+  color: rgb(78, 75, 94);
+  border : 1px solid #636060;
+}
+
+.nama{
+  font-family: 'Lobster', cursive;
+  font-size: x-large;
+}
+
+.mhs{
+  text-align: center;
+  color: rgb(107, 83, 83);
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.quote{
+  text-align: center;
+  color: rgb(73, 64, 64);
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.section2{
+  display: flex;
+  justify-content: center;
+}
+
+.ig{
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.twt{
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.riwayat-pendidikan{
+  display: flex;
+  color: rgb(91, 85, 92);
+  justify-content: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.motivasi{
+  font-size: large;
+  display: flex;
+  color: rgb(85, 73, 73);
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.IsiMotivasi{
+  display: flex;
+  color: rgb(85, 73, 73);
+  justify-content: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.IsiMotivasi2{
+  display: flex;
+  color: rgb(85, 73, 73);
+  justify-content: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.organisasi{
+  display: flex;
+  justify-content: center;
+  color: rgb(131, 128, 95);
+  font-size: xx-large;
+}
+
+.ImgOrganisasi{
+  display: flex;
+  justify-content: center;
+}
+
+.skill{
+  display: flex;
+  justify-content: center;
+  color: rgb(85, 73, 73);
+  font-size: xx-large;
+}
+
+.ImgSkill{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+/*CSS hanya diatas 768px*/
+/*Desktop device*/
+/*Media query*/
+
+@media(min-width: 768px){
+  .section1{
+      color: rgb(85, 73, 73);
   }
+
+  .section2{
+      display: flex;
+      justify-content: start;
+  }
+}
