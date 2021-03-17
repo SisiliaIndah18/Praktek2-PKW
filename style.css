@@ -18,29 +18,37 @@
 
 .tabel, th, td{
   color: rgb(78, 75, 94);
-  border : 1px solid #636060;
+  border : 5px solid #C9A199;
+  font-size: 40px;
 }
 
 .nama{
   font-family: 'Lobster', cursive;
-  font-size: x-large;
+  font-size: 50px;
   margin-top: 80px;
 }
 
 .mhs{
   text-align: center;
-  color: rgb(107, 83, 83);
+  color: rgb(127, 114, 148);
   font-weight: bold;
-  font-size: xx-large;
+  font-size: 35px;
   margin-top: 80px;
+}
+
+.prodi{
+  text-align: center;
+  color: rgb(97, 103, 146);
+  font-weight: bold;
+  font-size: 35px;
   margin-bottom: 80px;
 }
 
 .quote{
   text-align: center;
-  color: rgb(73, 64, 64);
+  color: rgb(224, 131, 116);
   font-weight: bold;
-  font-size: x-large;
+  font-size: 40px;
   margin-top: 80px;
   margin-bottom: 80px;
 }
@@ -63,31 +71,31 @@
   color: rgb(91, 85, 92);
   justify-content: center;
   font-weight: bold;
-  font-size: x-large;
+  font-size: 40px;
   margin-bottom: 80px;
 }
 
 .motivasi{
   display: flex;
-  color: rgb(85, 73, 73);
+  color: rgb(114, 82, 65);
   justify-content: center;
-  font-size: xx-large;
+  font-size: 35px;
   margin-top: 80px;
 }
 
 .IsiMotivasi{
   display: flex;
-  color: rgb(85, 73, 73);
+  color: rgb(88, 79, 58);
   justify-content: center;
   font-weight: bold;
-  font-size: x-large;
+  font-size: 35px;
 }
 
 .organisasi{
   display: flex;
   justify-content: center;
-  color: rgb(131, 128, 95);
-  font-size: xx-large;
+  color: rgb(88, 29, 23);
+  font-size: 40px;
   margin-top: 80px;
 }
 
@@ -99,8 +107,8 @@
 .skill{
   display: flex;
   justify-content: center;
-  color: rgb(85, 73, 73);
-  font-size: xx-large;
+  color: rgb(169, 64, 7);
+  font-size: 40px;
   margin-top: 80px;
 }
 
@@ -130,4 +138,18 @@
       display: flex;
       justify-content: start;
   }
+
+  @media only screen 
+  and (device-width : 414px) 
+  and (device-height : 896px) 
+  and (-webkit-device-pixel-ratio : 2) {
+    .section1{
+      color: rgb(85, 73, 73);
+  }
+
+  .section2{
+      display: flex;
+      justify-content: start;
+  }
+
 }
