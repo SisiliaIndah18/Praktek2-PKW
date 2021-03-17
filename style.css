@@ -139,23 +139,4 @@
       justify-content: start;
   }
 
-  @media only screen 
-  and (device-width : 414px) 
-  and (device-height : 896px) 
-  and (-webkit-device-pixel-ratio : 2) {
-    .section1{
-      color: rgb(85, 73, 73);
-  }
-
-  .section2{
-      display: flex;
-      justify-content: start;
-  }
-
-  .ImgSkill{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
 }
