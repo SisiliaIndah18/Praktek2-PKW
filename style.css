@@ -152,4 +152,10 @@
       justify-content: start;
   }
 
+  .ImgSkill{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
 }
