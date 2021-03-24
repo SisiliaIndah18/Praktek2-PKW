@@ -13,22 +13,37 @@
 .section{
   text-align: center;
   color: rgb(192, 122, 122);
-  margin-top: 100px;
 }
-
 .navbar{
-    text-align: left;
     display: flex;
 }
+
+.js1{
+    display: flex;
+    font-size: 50px;
+    color: rgb(192, 122, 122);
+    justify-content: center;
+}
+
+.js2{
+    display: flex;
+    font-size: 50px;
+    color: rgb(192, 122, 122);
+    justify-content: center;
+}
+
+.btnjs{
+    display: flex;
+    justify-content: center;
+}
+
 
 /*CSS hanya diatas 768px*/
 /*Desktop device*/
 /*Media query*/
 
 @media(min-width: 768px){
-  .section1{
+  .sectiontop{
       color: rgb(85, 73, 73);
-      display: flex;
   }
-
 }
