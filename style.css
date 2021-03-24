@@ -125,6 +125,21 @@
   margin-top: 100px;
 }
 
+.js{
+  text-align: center;
+  color: rgb(170, 151, 162);
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.btnjs{
+  text-align: center;
+  color: rgb(116, 97, 108);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
 /*CSS hanya diatas 768px*/
 /*Desktop device*/
 /*Media query*/
